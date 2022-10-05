@@ -10,34 +10,43 @@ Actualmente la esperanza de vida aumentó sustancialmente con respecto al siglo 
 
 Bajo esta premisa, nos preguntamos ¿cuáles fueron los factores que influyeron a este crecimiento?, ¿esta esperanza aumentará en los próximos años?, ¿qué paises se encuentran por debajo del promedio?, ¿que otras factores podrían mejorar la esperanza de vida? 
 
-Todas estas preguntas las absolveremos a lo largo de este proyecto. 
+Todas estas preguntas las resolveremos a lo largo de este proyecto. 
 
 # Objetivos
 
 Identificar y realizar un analisis estadistico a los factores principales del crecimiento de la esperanza de vida durante los ultimos 30 anos en N países.
 
 # Alcance
-`Esta sección lo dividiremos en dos etapas. En la primera realizaremos un análisis descriptivo (haciendo uso de la técnica de correlación de Pearson y los diagramas de dispersión) y en la segunda parte un análisis econométrico para el desarrollo de nuestro objetivo.`
+
+Analisis de los factores relevantes de N paises en los ultimos 30 anos.
+
 
 Nota: leer este informe https://sci-hub.se/https://www.jstor.org/stable/40376184
+
 # No alcance
 
 # Solución propuesta 
 
-- Escoger 15 factores que influyen en el crecimiento de la esperanza de vida de acuerdo a paper y/o tesis encontradas en la red.
+Esta sección lo dividiremos en tres etapas. 
 
-- Usar API's para importar los dataset
+ - Realizar una ingenieria de los datos.
 
-- Análizar estadisticamente los factores, con la finalidad de seleccionar los 10 factores con mayor relevancia.
-
-- Clasificar a los paises de acuerdo a los factores seleccionados y su influencia en la esperanza de vida.
+ -  Analisis descriptivo de los factores (técnica de correlación de Pearson, diagramas de dispersión entre otros)
+ 
+ - Análisis de machine learning para inferir la esperanza de vida en años venideros
 
 ## *Stack tecnológicos*
  
-- PostgreSQL como almacenamiento y procesamiento de la base de datos. 
-- Python para la conexión con las API'S
+-  Python para la extraccion y transfromacion de los datos 
+- PostgreSQL para el almacenamiento de los datos. 
 - Power BI para la vizualización de los datos
 - AWS?
+
+# Metodología de trabajo
+
+Se trabajará a través de la metodología SCRUM para lo cual usaremos Trello como herramienta de seguimiento.  
+
+<img src = "https://i.imgur.com/VB2yYJe.jpg" height = 300>
 
 # Notas extras
 - The Covid-19 pandemic is the primary cause of the decline the life expectancy, but we are ignoring another statistic. An Oxford University research found that moderate obesity, which is now common, reduces life expectancy by about three years, and severe obesity, which is still uncommon, can shorten a person’s life by ten years. *(Extreme obesity may shorten life expectancy by up to 14 years)*  - buscar datos
