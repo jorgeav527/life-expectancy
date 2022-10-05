@@ -19,7 +19,7 @@
 * El estudio empírico desarrollado en el trabajo realizado por *David Rodríguez Rodríguez titulado La relación entre esperanza de vida, desarrollo económico y medio ambiente en el 2015* muestra la existencia de una relación lineal directa entra la esperanza de vida de los países y su nivel de calidad ambiental, pero con un coeficiente de determinación reducido que, además, va disminuyendo a medida que se analizan grupos de paises con niveles de renta decrecientes.
 
 
-#### Factores
+### Factores
 1. Socio económico 
     * Países desarrollados (Ambientales, estilo de vida, sanitarios y de salud).
         - Ambientales como la Riqueza, educación, seguridad, regulación, infraestructuras.
@@ -84,4 +84,11 @@ A través de la Curva de Preston, se puede establecer una relación empírica en
 * [Barlow y Vissandjée (1999)](https://www.researchgate.net/figure/Regression-analysis-of-national-life-expectancy-at-birth-1990_tbl1_233360418)
 * [Tesis base](https://ruc.udc.es/dspace/bitstream/handle/2183/16409/RodriguezRodriguez_David_TFG_2015.pdf?sequence=2)
 
-- 
+Domingo
+
+## Solucion Propuesta: (Stack tecnológico)
+
+La propuesta es la presentación de un dashboard interactivo que permita realizar el seguimiento de la esperanza de vida de un país a lo largo del tiempo, de acuerdo al trabajo mencionado en el item entendimiento de la situación actual, para de este modo conocer el impacto que tuvieron distintas variables a lo largo del tiempo además de poder visualizar y hacer un seguimiento de un país en particular sobre que se haya recabado datos y se encuentre listado en nuestro alcance.
+
+
+Se pretende dilucidar de que forma estas variables impactan sobre la esperanza de vida al nacer, además con base en los datos recavados se permitirá predecir de forma interactiva que hubiese ocurrido con la esperanza de vida de haberse presentado otras condiciones.
