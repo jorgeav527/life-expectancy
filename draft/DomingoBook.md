@@ -79,18 +79,19 @@ Género: Niña
 
 ### Domingo
 
-Buenas tardes somos Yupana Analytics una división dedicada a ofrecer servicios de data analisis para organizaciones humanitarias. Contamos con 4 años de experiencia mostrando datos que ayudan a simplificar el trabajo de las distintas organizaciones que consumen nuestros servicios.
+Buenas tardes somos Yupana Analytics una división dedicada a ofrecer servicios de data analisis para organizaciones humanitarias. Contamos con 4 años de experiencia brindando datos que ayudan a simplificar el trabajo de las distintas organizaciones
 
-Nos dedicamos a la recopilación y analisis de datos para para que los proyectos humanitarios no tengan que dedicarse a ello y puedan emplear su tiempo en acciones y decisiones que mejoren la calidad de vida desde el minuto uno.
+Nos dedicamos a la recopilación y analisis de datos para para que los proyectos humanitarios no tengan que dedicarse a ello y puedan emplear su tiempo en acciones y decisiones que mejoren la calidad de vida de las personas desde el minuto uno.
 
-Desde nuestro lugar entendemos el miedo y la creencia de que la tecnología nos deshumaniza y distancia, es por eso que estamos comprometidos más que nunca en mostrar información relevante que ayude a humanizar, a convertir esos números y porcentajes abstractos en algo sólido. Con la esperanza de que los años de vida que ayudemos a ganar sean años que ayuden a cambiar la visión que se tiene de la teconología.
+Desde nuestro lugar entendemos el miedo y la creencia negativa de que la tecnología nos deshumaniza y distancia. Es por eso que estamos comprometidos más que nunca en mostrar información relevante que ayude a humanizar, a convertir esos números y porcentajes abstractos en algo sólido. Con la esperanza de que los años de vida que ayudemos a ganar sean años que ayuden a cambiar la visión que se tiene de la teconología.
 
 Nuestro equipo esta conformado de la siguiente manera:
-- En el área de ciencias de datos, se encuentra Jorge Alarcón. Responsable de aplicar modelos predictivos adecuados que describan adecuadamente el comportamiento de los datos.
+- En el área de Ciencias de Datos, se encuentra Jorge Alarcón. Responsable de aplicar modelos predictivos adecuados que describan el comportamiento de los datos.
 - En el área de Análisis de Datos Mariel Cochachi. Llevando un trabajo fundamental para facilitar la visualización y comprensión de los datos, tanto durante el preprocesamiento como en la presentación final del producto.
 - En en área de Anális Funcional, Ravi Rojas. Encargado de articular y conectar con nuestros potenciales beneficiarios. Haciendo especial énfasis en la interacción de las diferentes áreas del proyecto.
 - En el área de Ingeniería de datos, su servidor, quien les habla Domingo Gutierrez. Responsable de la adquisición de los datos, diseño del Data Warehouse, EDA y procesos de ETL necesarios para poder trabajar sobre los datos.
 
+Ahora le doy la palabra a nuestra compañera Mariel que les va a explicar cómo es que entendemos y abordamos nosotros la problemática planteada
 
 ### Jorge
 
