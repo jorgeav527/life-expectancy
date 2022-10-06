@@ -96,3 +96,31 @@ propuestas de ravi para el proyecto
   Semana 2: Construccion de la base de datos y la API con los procesos previos implicitos (EDA, ETL, despliegue)
   Semana 3: Desarrollo de un modelo de machine learning y validacion de las características.
   Semana 4: Desarrollo del tablero (o los tableros) y preparacion de la presentacion.
+
+
+
+
+Descripcion del producto:
+
+El mundo esta lleno de diversidad. El proceso de globalización a traido como consecuencia que se pretenda establecer patrones generales en todos los aspectos que forman parte de nuestras vidas.
+
+Las variables que influyen sobre la esperanza de vida son muy diversas (El desarrollo económico o tecnológico no siempre impactan de manera positiva sobre la calidad de vida) pero no solo eso, varían. Pueden cambiar de un lugar a otro o durante el tiempo. Determinar estar particularidades es un arduo trabajo, pero gracias a la tecnología de Machine Learning se puede resolver de manera eficiente y precisa aportando calidad al resultado de las investigaciones. (estableciendo los parametros temporales y geograficos la plataforma te recomienda y te facilita los datos pertinentes)
+
+Yupana Analitics provee herramientas para conectar de manera oportuna los datos precisos con quienes toman las decisiones.
+
+Ofrecemos una plataforma inteligente que a partir de ciertos parametros indicados por el usuario devuelva en tiempo real los datos mas relevantes y ordenados segun su grado de influencia con características específicas para cada caso de estudio. 
+
+Ademas la plataforma cuenta con herramientas que permiten visualizar los resultados y proyectar los cambios en la esperanza de vida cuando varian las caracteristicas influyentes. Esto permite simular escenarios pasados o futuros.
+
+Es importante resaltar el valor que aporta nuestra plataforma a nuestros usuarios. Si se trata de investigaciones, estamos apoyando a nuestros usuarios en el uso eficiente del tiempo entregando datos adecuados y oportunos para cada caso de estudio. Cuando se trata de procesos de toma de decisiones contar con los datos indicados ayuda a la toma de decisiones acertadas y por lo tanto a un uso efectivo de los recursos económicos. (KPI de tiempo y de impacto de las politicas publicas)
+
+
+Invitamos a organizaciones e individuos de todos los campos a unirse a nosotros!!
+
+
+
+
+
+
+
+ 
