@@ -21,9 +21,9 @@ for i in paises
 El desarrollo de un modelo MachineLearning predictor de esperanza de vida también queda dentro del alcance del proyecto. El cual devolverá un número edad que indicará si bajo las condiciones propuestas la esperanza de vida al nacer se incrementó, se mantuvo igual o decrementó.
 
 # Solución propuesta
-Se propone la presentación de un dashboard interactivo que permita realizar el seguimiento de un pais a lo largo del tiempo para conocer de qué forma las variables seleccionadas han impactado en la esperanza de vida al nacer. El mismo permitirá, en base a los datos recavados, y mediante algoritmos de Machine Learning, predecir qué variables serían recomendable optimizar para mejorar la esperanza de vida.
+Se propone la presentación de una  plataforma intuitiva y personalizada, rapida y facil de usar que permita realizar el seguimiento de un pais a lo largo del tiempo, para conocer de qué forma las variables seleccionadas han impactado en la esperanza de vida al nacer. El mismo permitirá, en base a los datos recavados, y mediante modelos predictivos, conocer qué variables sería recomendable optimizar para mejorar la esperanza de vida.
 
-Se pretente que el dashboart también sea capaz de mostrar qué hubiese ocurrido en años anteriores si el gobierno de turno hubiese implementado acciones en contra de la mortalidad infantil o la dirección del país se hubiera encontrado bajo un régimen democrático.
+Se pretente que esta plataforma también sea capaz de mostrar qué hubiera ocurrido en años anteriores si el gobierno de turno hubiese implementado acciones en contra de la mortalidad infantil o el gobierno de paso se encontrará bajo un régimen democrático.
 
 # Ideas no relacionadas
 ## Features que se podría analizar
