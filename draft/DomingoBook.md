@@ -20,6 +20,7 @@ for i in paises
 ```
 El desarrollo de un modelo MachineLearning predictor de esperanza de vida también queda dentro del alcance del proyecto. El cual devolverá un número edad que indicará si bajo las condiciones propuestas la esperanza de vida al nacer se incrementó, se mantuvo igual o decrementó.
 
+
 # Ideas no relacionadas
 ## Features que se podría analizar
 - Desigualdad en el **ingreso**
@@ -28,3 +29,37 @@ El desarrollo de un modelo MachineLearning predictor de esperanza de vida tambi�
 - Obesidad, alcoholismo, tabaquismo
 **gasto en servicios de salud del país**
 
+# Cualquiera de estos nombres con Analitica al final XD
+**Gyan:** Es de origen hindú y sánscrito, y el significado de Gyan es "la sabiduría, la iluminación".
+**Solin:** [Nombre griego masculino](https://www.todopapas.com/nombres/nombres-de-nino/nombres-de-origen-griego) con dos significados: “sabiduría; grave”.
+**Sofía:** Sofía significa, gracias a su origen griego, "sabiduría". Se interpreta como la mujer sabia, la audaz e inteligente.
+**Daina:** Daina fue la reina griega de las montañas, llena de sabiduría.
+**Atenea:** Evoca la figura de Palas Atenea, diosa protectora de los atenienses, diosa griega de la sabiduría. Hija de Zeus y de Juno.
+**Apolo**: la luz de la [verdad](https://es.wikipedia.org/wiki/Verdad "Verdad").
+**Dru:** Significa "visión", el que todo lo ve con claridad.
+#### Alden
+Significado: Defensor  
+Origen: Anglosajón  
+Género: Niño
+#### Ailfrid
+Significado: Sabio  
+Origen: Irlandés  
+Género: Niño
+#### Aldrick
+Significado: Viejo o sabio gobernante  
+Origen: Francés  
+Género: Niño
+#### Cate
+Significado: Sabio  
+Origen: Latín  
+Género: Chica
+#### Conan
+Significado: Sabio  
+Origen: Celta  
+Género: Niño
+#### Drew
+Significado: Sabio  
+Origen: Anglosajón  
+Género: Niño
+
+[nombres piolas](https://www.revistadelbebe.com/nombres-que-significan-sabio/)
