@@ -20,6 +20,11 @@ for i in paises
 ```
 El desarrollo de un modelo MachineLearning predictor de esperanza de vida también queda dentro del alcance del proyecto. El cual devolverá un número edad que indicará si bajo las condiciones propuestas la esperanza de vida al nacer se incrementó, se mantuvo igual o decrementó.
 
+# Solución propuesta
+Se propone la presentación de una  plataforma intuitiva y personalizada, rapida y facil de usar que permita realizar el seguimiento de un pais a lo largo del tiempo, para conocer de qué forma las variables seleccionadas han impactado en la esperanza de vida al nacer. El mismo permitirá, en base a los datos recavados, y mediante modelos predictivos, conocer qué variables sería recomendable optimizar para mejorar la esperanza de vida.
+
+Se pretente que esta plataforma también sea capaz de mostrar qué hubiera ocurrido en años anteriores si el gobierno de turno hubiese implementado acciones en contra de la mortalidad infantil o el gobierno de paso se encontrará bajo un régimen democrático.
+
 # Ideas no relacionadas
 ## Features que se podría analizar
 - Desigualdad en el **ingreso**
@@ -28,3 +33,88 @@ El desarrollo de un modelo MachineLearning predictor de esperanza de vida tambi�
 - Obesidad, alcoholismo, tabaquismo
 **gasto en servicios de salud del país**
 
+# Cualquiera de estos nombres con Analitica al final XD
+**Gyan:** Es de origen hindú y sánscrito, y el significado de Gyan es "la sabiduría, la iluminación".
+**Solin:** [Nombre griego masculino](https://www.todopapas.com/nombres/nombres-de-nino/nombres-de-origen-griego) con dos significados: “sabiduría; grave”.
+**Sofía:** Sofía significa, gracias a su origen griego, "sabiduría". Se interpreta como la mujer sabia, la audaz e inteligente.
+**Daina:** Daina fue la reina griega de las montañas, llena de sabiduría.
+**Atenea:** Evoca la figura de Palas Atenea, diosa protectora de los atenienses, diosa griega de la sabiduría. Hija de Zeus y de Juno.
+**Apolo**: la luz de la [verdad](https://es.wikipedia.org/wiki/Verdad "Verdad").
+**Dru:** Significa "visión", el que todo lo ve con claridad.
+#### Alden
+Significado: Defensor  
+Origen: Anglosajón  
+Género: Niño
+#### Ailfrid
+Significado: Sabio  
+Origen: Irlandés  
+Género: Niño
+#### Aldrick
+Significado: Viejo o sabio gobernante  
+Origen: Francés  
+Género: Niño
+#### Cate
+Significado: Sabio  
+Origen: Latín  
+Género: Chica
+#### Conan
+Significado: Sabio  
+Origen: Celta  
+Género: Niño
+#### Drew
+Significado: Sabio  
+Origen: Anglosajón  
+Género: Niño
+#### Alden
+Significado: viejo y sabio amigo
+origen: inglés
+Género: Niño
+### Ismene
+Significado: conocedor
+Origen: griego
+Género: Niña
+[nombres piolas](https://www.revistadelbebe.com/nombres-que-significan-sabio/)
+
+# Presentación para dividir en cuatro partes
+
+### Domingo
+Se tiene la creencia de que la tecnología aleja a las personas y deshumanizan a las personas, pero desde nuestra consultora entendemos que cada persona es un mundo y que como tal se merece el respeto que 
+
+Primero nos presentamos como una empresa
+somos tal dedicada a ofrecer servicios de data analisis para org humanitarias
+tenemos X años de experiencia para dif org mundiales
+
+somos una consultora que se dedica al analisis de dtaos jpara que la ong se dedique de pleno a las acciones humanitarias
+
+nuestro equipo esta formado por tales personas en tal y tal area. 
+En la parte de tal nos encontramos con Tal que tiene 
+
+### Jorge
+
+Trabajamos con tecnologías de punta para elmodeldo, almacenamiento en la nube y analisis de datos 
+
+almacenamiento en la nube, bases de datos relacionales no relacionales
+
+Nuestra metodología es... Hablar del pipeline que se hizo para seleccionar las
+
+#### Mariel
+El entendimiento que tenemos de lo solicitado es el siguiente: {explicar}
+venimos a presentar unaa propuesta segun lo solicitado
+
+Lo que queremos es presentar una solución e base.
+
+tenemos tal investigación. Nos enonctramos con tales dificultades. 
+Y nos concentramos en responder las siguientes pregutnas
+
+
+### Ravi
+
+Ofrecemos la solución de presentar.
+
+Proponemos la implementación de una api bien documentada. para que pueda ser consumida directamente.
+
+Proponemos consumir la api a travez de nuestro tablero.
+
+Por ultimo la presentación de un tablero para presentar tal data.
+
+Poner ejemplos.

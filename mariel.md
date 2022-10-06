@@ -10,6 +10,7 @@ Actualmente la esperanza de vida aumentó sustancialmente con respecto al siglo 
 
 Bajo esta premisa, nos preguntamos ¿cuáles fueron los factores que influyeron a este crecimiento?, ¿esta esperanza aumentará en los próximos años?, ¿qué paises se encuentran por debajo del promedio?, ¿que otras factores podrían mejorar la esperanza de vida? 
 
+
 Todas estas preguntas las resolveremos a lo largo de este proyecto. 
 
 # Objetivos
@@ -23,7 +24,7 @@ Analisis de los factores relevantes de N paises en los ultimos 30 anos.
 
 Nota: leer este informe https://sci-hub.se/https://www.jstor.org/stable/40376184
 
-# No alcance
+# No alcanceain
 
 # Solución propuesta 
 
