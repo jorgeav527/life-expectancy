@@ -65,7 +65,56 @@ Género: Niño
 Significado: Sabio  
 Origen: Anglosajón  
 Género: Niño
-
-
-
+#### Alden
+Significado: viejo y sabio amigo
+origen: inglés
+Género: Niño
+### Ismene
+Significado: conocedor
+Origen: griego
+Género: Niña
 [nombres piolas](https://www.revistadelbebe.com/nombres-que-significan-sabio/)
+
+# Presentación para dividir en cuatro partes
+
+### Domingo
+Se tiene la creencia de que la tecnología aleja a las personas y deshumanizan a las personas, pero desde nuestra consultora entendemos que cada persona es un mundo y que como tal se merece el respeto que 
+
+Primero nos presentamos como una empresa
+somos tal dedicada a ofrecer servicios de data analisis para org humanitarias
+tenemos X años de experiencia para dif org mundiales
+
+somos una consultora que se dedica al analisis de dtaos jpara que la ong se dedique de pleno a las acciones humanitarias
+
+nuestro equipo esta formado por tales personas en tal y tal area. 
+En la parte de tal nos encontramos con Tal que tiene 
+
+### Jorge
+
+Trabajamos con tecnologías de punta para elmodeldo, almacenamiento en la nube y analisis de datos 
+
+almacenamiento en la nube, bases de datos relacionales no relacionales
+
+Nuestra metodología es... Hablar del pipeline que se hizo para seleccionar las
+
+#### Mariel
+El entendimiento que tenemos de lo solicitado es el siguiente: {explicar}
+venimos a presentar unaa propuesta segun lo solicitado
+
+Lo que queremos es presentar una solución e base.
+
+tenemos tal investigación. Nos enonctramos con tales dificultades. 
+Y nos concentramos en responder las siguientes pregutnas
+
+
+### Ravi
+
+Ofrecemos la solución de presentar.
+
+Proponemos la implementación de una api bien documentada. para que pueda ser consumida directamente.
+
+Proponemos consumir la api a travez de nuestro tablero.
+
+Por ultimo la presentación de un tablero para presentar tal data.
+
+Poner ejemplos.
