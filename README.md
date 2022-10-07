@@ -1,16 +1,16 @@
 
-# YUPANA ANALYTICS
+# <center> YUPANA ANALYTICS </center>
 
 <center> <img src="https://i.imgur.com/XVNIRsD.png" alt="drawing" width="300"> </center>
 
-## Quiénes somos?
+## ¿Quiénes somos?
 
 Yupana Analytics es una división dedicada a ofrecer servicios de análisis de data para organizaciones humanitarias. Contamos con 4 años de experiencia brindando datos que ayudan a simplificar el trabajo de las distintas organizaciones.
 
 > *Mejorar las respuestas sociales a través de la acción responsable de los `datos`*
 
 
-## Qué hacemos?
+## ¿Qué hacemos?
 
 Nos dedicamos a la recopilación y análisis de datos para que los proyectos humanitarios no tengan que dedicarse a ello y puedan emplear su tiempo en acciones y decisiones que mejoren la calidad de vida de las personas desde el minuto uno.
 
@@ -32,17 +32,18 @@ Desde nuestro lugar entendemos el miedo y la creencia negativa de que la tecnolo
 
 <center> <img src="https://i.imgur.com/44eV306.jpg" alt="drawing" width="600"> </center>
 
+
 # ESPERANZA DE VIDA AL NACER
 
 ## **Situación actual**
 
-### Qué es la esperanza de vida al nacer? 
+### ¿Qué es la esperanza de vida al nacer? 
 
 La ONU establece la siguiente definición: **"Cantidad de años que un recién nacido puede esperar vivir si los patrones de mortalidad por edades imperantes en el momento de su nacimiento siguieran siendo los mismos a lo largo de toda su vida"**, en otras palabras, la esperanza de vida es la edad promedio de muerte en una población.
 
 <center> <img src="https://i.imgur.com/4MrNkVW.png" alt="drawing" width="600"> </center>
 
-### Por qué escoger la esperanza de vida al nacer como proyecto?
+### ¿Por qué escoger la esperanza de vida al nacer como proyecto?
 
 Porque es parte de los indicadores que muestran el nivel de desarrollo de un país en el transcurso de los años por tanto está muy ligada a la economía, la educacion y la salud de un país.
 
@@ -101,6 +102,11 @@ Es importante resaltar el valor que aporta nuestra plataforma a nuestros usuario
 
 
 > KPI de tiempo y de impacto de las politicas publicas serán usadas para el desarrollo de este proyecto.
+
+
+## **Cronograma de trabajo**
+
+<center> <img src="https://i.imgur.com/KqtNKVJ.png" alt="drawing" width="600"> </center>
 
 
 
