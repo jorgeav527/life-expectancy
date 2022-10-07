@@ -78,6 +78,8 @@ Nuestro staff está altamente capacitado en diferentes tecnologías y con difere
 
 El mundo esta lleno de diversidad. El proceso de globalización ha traido, como consecuencia, establecer patrones generales en todos los aspectos que forman parte de nuestras vidas.
 
+<center> <img src="https://i.imgur.com/dpuzkzk.jpg" alt="drawing" width="600"> </center>
+
 Las variables que influyen sobre la esperanza de vida son muy diversas, pueden cambiar de un lugar a otro o durante el tiempo. Determinar estar particularidades es un arduo trabajo, pero gracias a la tecnología de Machine Learning se puede resolver de manera eficiente y precisa aportando calidad al resultado de las investigaciones. 
 
 Yupana Analytics provee herramientas para conectar de manera oportuna los datos precisos con quienes toman las decisiones. 
@@ -85,6 +87,8 @@ Yupana Analytics provee herramientas para conectar de manera oportuna los datos 
 Ofrecemos una plataforma inteligente que a partir de ciertos parámetros, indicados por el usuario, devuelva en tiempo real los factores más relevantes, según su grado de influencia, con características específicas para cada caso de estudio. 
 
 Ademas la plataforma cuenta con herramientas que permiten visualizar los resultados y proyectar los cambios en la esperanza de vida cuando varían las características influyentes. 
+
+<center> <img src="https://i.imgur.com/bYbqc6z.png" alt="drawing" width="600"> </center>
 
 Es importante resaltar el valor que aporta nuestra plataforma a nuestros usuarios.
 - Si se trata de investigaciones, estamos apoyando a nuestros usuarios en el uso eficiente del tiempo entregando datos adecuados y oportunos para cada caso de estudio.
