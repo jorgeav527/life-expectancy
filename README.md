@@ -1,6 +1,8 @@
 
 # YUPANA ANALYTICS
 
+<center> <img src="https://i.imgur.com/XVNIRsD.png" alt="drawing" width="300"> </center>
+
 ## Quiénes somos?
 
 Yupana Analytics es una división dedicada a ofrecer servicios de análisis de data para organizaciones humanitarias. Contamos con 4 años de experiencia brindando datos que ayudan a simplificar el trabajo de las distintas organizaciones.
@@ -28,7 +30,7 @@ Desde nuestro lugar entendemos el miedo y la creencia negativa de que la tecnolo
 - **Área de Análisis de Datos**: 
     Mariel Cochachi, llevando un trabajo fundamental para facilitar la visualización y comprensión de los datos, tanto durante el preprocesamiento como en la presentación final del producto.
 
-<center> <img src="./images/trabajo_equipo.jpg" alt="drawing" width="600"> </center>
+<center> <img src="https://i.imgur.com/44eV306.jpg" alt="drawing" width="600"> </center>
 
 # ESPERANZA DE VIDA AL NACER
 
@@ -55,24 +57,26 @@ Nuestro staff está altamente capacitado en diferentes tecnologías y con difere
 
 1. Nuestro equipo trabaja bajo un sistema de control de versiones Git en una de las plataformas más usadas por desarrolladores GitHub, esto para garantizar un mantenimiento constante del proyecto y/o un sistema ramificado para mantener un plan de entregas iterativas.
 
-<center><img src="images\pipeline\gitflow.png" alt="drawing" width="600"></center>
+<center><img src="https://i.imgur.com/vRlWkmu.png" alt="drawing" width="600"></center>
 
 2. El lenguaje de programación más usado por nuestra empresa es Python, ya que al ser multiparadigma y orientado a objetos es uno de los más usados en DataScience.
-    
-
-<center><img src="images/pipeline/python.jpg" alt="drawing" width="600"/></center>
 
 3. Nuestra organización también tiene un equipo de DevOs especializado en la automatización de entregas el cual planifica, construye, testea, libera, despliega y monitorea el proyecto, usualmente usamos Docker con la capacidad de dar respuesta a cualquier Sistema Operativo y/o servicio en la nube.
     
-<center><img src="images/pipeline/DevOs.jpg" alt="drawing" width="600"/></center>
+<center><img src="https://i.imgur.com/OfwXRME.jpg" alt="drawing" width="600"/></center>
 
 4. Nuestro equipo extraerá la información de la API del World Bank Group y complementará con otras fuentes, estos datos limpios serán subidos a una base de datos relacionales, por la calidad de los datos se plantea usar una base de datos PostgreSQL y con forma evoluciona en complejidad podríamos migrar a una base de datos MongoDB.
 
-<center><img src="images/pipeline/SQL-vs-NoSQL.jpg" alt="drawing" width="600"/></center>
+<center><img src="https://i.imgur.com/kVXD67Y.jpg" alt="drawing" width="600"/></center>
     
-4. La metodología para este proyecto es SCRUM, esto quiere decir que el Ingeniero Funcional definirá un documento que contenga todos los requisitos del proyecto, luego en una reunión junto con el equipo de desarrollo se planificarán algunas soluciones. En el corazón del SCRUM se desarrollará el proyecto según la necesidad del cliente, tanto si fuese incremental o funcional, las revisiones y feedback del dueño del proyecto son esenciales para las continuas entregas.
+5. La metodología para este proyecto es SCRUM, esto quiere decir que el Ingeniero Funcional definirá un documento que contenga todos los requisitos del proyecto, luego en una reunión junto con el equipo de desarrollo se planificarán algunas soluciones. En el corazón del SCRUM se desarrollará el proyecto según la necesidad del cliente, tanto si fuese incremental o funcional, las revisiones y feedback del dueño del proyecto son esenciales para las continuas entregas.
 
-<center><img src="images/pipeline/SCRUM.png" alt="drawing" width="600"/></center>
+<center><img src="https://i.imgur.com/z3jaHJf.jpg" alt="drawing" width="600"/></center>
+
+6. Todas estas tecnologías y metodologías con el fin de desarrollar un proyecto de DataSciense aplicado al contexto social **"Esperanza de Vida al Nacer"** en el cual se aplicará modelos de Machine learning.
+
+<center><img src="https://i.imgur.com/Wremzi0.jpg" alt="drawing" width="600"/></center>
+
 
 ## **Presentación de producto**
 

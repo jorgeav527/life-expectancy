@@ -88,21 +88,16 @@ A través de la Curva de Preston, se puede establecer una relación empírica en
 
 Nuestro staff está altamente capacitado en diferentes tecnologías y con diferentes backgrounds lo que nos da un marco de trabajo seguro, estable y escalable, tenemos desde expertos en la extracción y producción de los datos, hasta expertos en la calidad de los resultados finales consumidos por el producto.
 
-* Para el siguiente trabajo vamos a tener la siguiente arquitectura o flujo de trabajo.
+Para el siguiente trabajo vamos a tener la siguiente arquitectura o flujo de trabajo.
 
-    1. Nuestro equipo trabaja bajo un sistema de control de versiones Git en una de las plataformas más usadas por desarrolladores GitHub, esto para garantizar un mantenimiento constante del proyecto y/o un sistema ramificado para mantener un plan de entregas iterativas.
-    <br>
-    <img src="../images/pipeline/gitflow.png" alt="drawing" width="600"/>
-    2. El lenguaje de programación más usado por nuestra empresa es Python, ya que al ser multiparadigma y orientado a objetos es uno de los más usados en DataScience, no sin antes mencionar que también tenemos profesionales en otros lenguajes.
-    <br>
-    <img src="../images/pipeline/python.jpg" alt="drawing" width="600"/>
-    3. Nuestra organización también tiene un equipo de DevOs especializado en la automatización de entregas el cual planifica, construye, testea, libera, despliega y monitorea el proyecto, usualmente usamos Docker con la capacidad de dar respuesta a cualquier Sistema Operativo y/o servicio en la nube.
-    <br>
-    <img src="../images/pipeline/DevOs.jpg" alt="drawing" width="600"/>
-    4. Nuestro equipo extraerá la información de la API del World Bank Group y complementará con otras fuentes, estos datos limpios serán subidos a una base de datos relacionales, por la calidad de los datos se plantea usar una base de datos PostgreSQL y con forma evoluciona en complejidad podríamos migrar a una base de datos mongo.
-    <br>
-    <img src="../images/pipeline/SQL-vs-NoSQL.jpg" alt="drawing" width="600"/>
-    4. La metodología para este proyecto es SCRUM, esto quiere decir que el Ingeniero Funcional definirá un documento que contiene todos los requisitos del proyecto, luego en una reunión junto con el equipo de desarrollo se planificarán algunas soluciones. En el corazón del SCRUM se desarrollará el proyecto según la necesidad del cliente, tanto si fuese incremental o funcional, las revisiones y feedback del dueño del proyecto son esenciales para las continuas entregas.
-    <br>
-    <img src="../images/pipeline/SCRUM.png" alt="drawing" width="600"/>
-    5. Todas estas tecnologías y metodologías con el fin de desarrollar un proyecto de DataSciense aplicado al contexto social **"Esperanza de Vida al Nacer"** en el cual se aplicará modelos de Machine learning, mi compañero Ravi Rojas les dará continuación un prototipo del producto.
+1. Nuestro equipo trabaja bajo un sistema de control de versiones Git en una de las plataformas más usadas por desarrolladores GitHub, esto para garantizar un mantenimiento constante del proyecto y/o un sistema ramificado para mantener un plan de entregas iterativas.
+<img src="../images/pipeline/gitflow.png" alt="drawing" width="600"/>
+2. El lenguaje de programación más usado por nuestra empresa es Python, ya que al ser multiparadigma y orientado a objetos es uno de los más usados en DataScience, no sin antes mencionar que también tenemos profesionales en otros lenguajes.
+<img src="../images/pipeline/python.jpg" alt="drawing" width="600"/>
+3. Nuestra organización también tiene un equipo de DevOs especializado en la automatización de entregas el cual planifica, construye, testea, libera, despliega y monitorea el proyecto, usualmente usamos Docker con la capacidad de dar respuesta a cualquier Sistema Operativo y/o servicio en la nube.
+<img src="../images/pipeline/DevOs.jpg" alt="drawing" width="600"/>
+4. Nuestro equipo extraerá la información de la API del World Bank Group y complementará con otras fuentes, estos datos limpios serán subidos a una base de datos relacionales, por la calidad de los datos se plantea usar una base de datos PostgreSQL y con forma evoluciona en complejidad podríamos migrar a una base de datos mongo.
+<img src="../images/pipeline/SQL-vs-NoSQL.jpg" alt="drawing" width="600"/>
+5. La metodología para este proyecto es SCRUM, esto quiere decir que el Ingeniero Funcional definirá un documento que contiene todos los requisitos del proyecto, luego en una reunión junto con el equipo de desarrollo se planificarán algunas soluciones. En el corazón del SCRUM se desarrollará el proyecto según la necesidad del cliente, tanto si fuese incremental o funcional, las revisiones y feedback del dueño del proyecto son esenciales para las continuas entregas.
+<img src="../images/pipeline/SCRUM.png" alt="drawing" width="600"/>
+6. Todas estas tecnologías y metodologías con el fin de desarrollar un proyecto de DataSciense aplicado al contexto social **"Esperanza de Vida al Nacer"** en el cual se aplicará modelos de Machine learning, mi compañero Ravi Rojas les dará continuación un prototipo del producto.
