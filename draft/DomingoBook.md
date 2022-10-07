@@ -79,7 +79,7 @@ Género: Niña
 
 ### Domingo
 
-Buenas tardes somos Yupana Analytics una división dedicada a ofrecer servicios de data analisis para organizaciones humanitarias. Contamos con 4 años de experiencia brindando datos que ayudan a simplificar el trabajo de las distintas organizaciones
+Buenas tardes, buenos días. Estamos muy contentos de estar aquí. Sabemos que tienen una filosofía muy similar a la nuestra. Y nos encantará trabajar juntos. Somos Yupana Analytics una división dedicada a ofrecer servicios de data analisis para organizaciones humanitarias. Contamos con 4 años de experiencia brindando datos que ayudan a simplificar el trabajo de las distintas organizaciones
 
 Nos dedicamos a la recopilación y analisis de datos para para que los proyectos humanitarios no tengan que dedicarse a ello y puedan emplear su tiempo en acciones y decisiones que mejoren la calidad de vida de las personas desde el minuto uno.
 
@@ -91,7 +91,7 @@ Nuestro equipo esta conformado de la siguiente manera:
 - En en área de Anális Funcional, Ravi Rojas. Encargado de articular y conectar con nuestros potenciales beneficiarios. Haciendo especial énfasis en la interacción de las diferentes áreas del proyecto.
 - En el área de Ingeniería de datos, su servidor, quien les habla Domingo Gutierrez. Responsable de la adquisición de los datos, diseño del Data Warehouse, EDA y procesos de ETL necesarios para poder trabajar sobre los datos.
 
-Ahora le doy la palabra a nuestra compañera Mariel que les va a explicar cómo es que entendemos y abordamos nosotros la problemática planteada
+Ahora le doy la palabra a nuestra compañera Mariel quien les va a contar porque elegimos enfocarnos en algo tan bonito y tan importante como es la esperanza de vida al nacer.
 
 ### Jorge
 
@@ -122,3 +122,20 @@ Proponemos consumir la api a travez de nuestro tablero.
 Por ultimo la presentación de un tablero para presentar tal data.
 
 Poner ejemplos.
+
+# Devoluciones
+Dedicar siempre unos minutos a contar el progreso que tuvimos. Lo que hicimos, lo que no hicimos, las dificultades que tuvimos. 
+
+Contar la parte de cómo vendemos el producto, el progreso que tuvimos y enfocar el desarrollo en el staf tecnológico. 
+
+Gant, flujo de datos, 
+Mostrar avances,
+
+Debe existir la parte académica, que hicimos durante la semana. No dejar de lado la párte académica.
+Debe existir la parte financiera, porque por un lado debe estar la parte académica.
+
+## KPIs
+Objetivo reducir el tiempo de 2 meses el trabajo el de organizaciónes
+Aumentar la esperanza de vida en 0.2 años en un año siguiendo las recomendaciónes que indica el producto
+
+Velocidad en la que se hacen cargas incrementales
