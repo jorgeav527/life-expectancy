@@ -95,7 +95,7 @@ Género: Niña
 
 # Presentación para dividir en cuatro partes
 
-### Domingo
+## Domingo
 
 Buenas tardes, buenos días. Estamos muy contentos de estar aquí. Sabemos que tienen una filosofía muy similar a la nuestra. Y nos encantará trabajar juntos. Somos Yupana Analytics una división dedicada a ofrecer servicios de data analisis para organizaciones humanitarias. Contamos con 4 años de experiencia brindando datos que ayudan a simplificar el trabajo de las distintas organizaciones
 
@@ -111,7 +111,7 @@ Nuestro equipo esta conformado de la siguiente manera:
 
 Ahora le doy la palabra a nuestra compañera Mariel quien les va a contar porque elegimos enfocarnos en algo tan bonito y tan importante como es la esperanza de vida al nacer.
 
-### Jorge
+## Jorge
 
 Trabajamos con tecnologías de punta para elmodeldo, almacenamiento en la nube y analisis de datos 
 
@@ -119,7 +119,7 @@ almacenamiento en la nube, bases de datos relacionales no relacionales
 
 Nuestra metodología es... Hablar del pipeline que se hizo para seleccionar las
 
-#### Mariel
+## Mariel
 El entendimiento que tenemos de lo solicitado es el siguiente: {explicar}
 venimos a presentar unaa propuesta segun lo solicitado
 
@@ -129,7 +129,7 @@ tenemos tal investigación. Nos enonctramos con tales dificultades.
 Y nos concentramos en responder las siguientes pregutnas
 
 
-### Ravi
+## Ravi
 
 Ofrecemos la solución de presentar.
 
