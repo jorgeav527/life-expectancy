@@ -28,10 +28,28 @@ Se pretente que esta plataforma también sea capaz de mostrar qué hubiera ocurr
 # Ideas no relacionadas
 ## Features que se podría analizar
 - Desigualdad en el **ingreso**
+	- Coeficiente de Gini [3.0.Gini]
+	- Gini rural [3.1.Gini]
+	- Porcentaje de la poblacion rural [SP.RUR.TOTL.ZS]
+	- Gini urbano [3.2.Gini]
+	- Porcentaje de la población urbana [SP.URB.TOTL.IN.ZS]
 - Empoderamiento de las muyeres
+	- Porcentaje población mujeres [SP.POP.TOTL.FE.ZS]
+		-> .IN en lugar de .ZS indica cantidad
+	- porcentaje población hombres [SP.POP.TOTL.MA.ZS]
+		-> .IN en lugar de .ZS indica cantidad
+	- Proporción sexos al nacer [SP.POP.BRTH.MF]
+		-> Mujeres cada 1000 hombres
 - Educación como predictor
+	- Gasto público en educación, total (% del PIB) [SE.XPD.TOTL.GD.ZS]
+	- Educación obligatoria, duración (años) [SE.COM.DURS]
 - Obesidad, alcoholismo, tabaquismo
-**gasto en servicios de salud del país**
+	- No encontré indicadores para esto ehe
+- **gasto en servicios de salud del país**
+	- Gasto en salud total (% del PBI) [SH.XPD.TOTL.ZS]
+
+Para ver en detalle cada uno de estos indicadores, acceder al endpoint:
+http://api.worldbank.org/v2/es/indicator/[indicador]?format=json
 
 # Cualquiera de estos nombres con Analitica al final XD
 **Gyan:** Es de origen hindú y sánscrito, y el significado de Gyan es "la sabiduría, la iluminación".
