@@ -118,6 +118,21 @@ Es importante resaltar el valor que aporta nuestra plataforma a nuestros usuario
 Invitamos a organizaciones e individuos de todos los campos a unirse a nosotros!!
 
 
+9 de Octubre de 2022
+
+Proceso de ingeniería de características:
+
+Se debe tener un dataset de base sobre el cual aplicar las tecnicas estadísticas y de machine learning para seleccionar el dataset final.
+
+Para la preseleccion de las características se tomaran en cuenta diferentes criterios:
+
+  - El primero sera consultar el articulo sugerido y otros articulos para seleccionar las caracteristicas
+
+  - luego tecnicas estadisticas
+
+  - por ultimo importance
+
+
 
 
 
