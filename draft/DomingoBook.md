@@ -93,9 +93,7 @@ Origen: griego
 Género: Niña
 [nombres piolas](https://www.revistadelbebe.com/nombres-que-significan-sabio/)
 
-# Presentación para dividir en cuatro partes
-
-## Domingo
+# Presentación primera semana
 
 Buenas tardes, buenos días. Estamos muy contentos de estar aquí. Sabemos que tienen una filosofía muy similar a la nuestra. Y nos encantará trabajar juntos. Somos Yupana Analytics una división dedicada a ofrecer servicios de data analisis para organizaciones humanitarias. Contamos con 4 años de experiencia brindando datos que ayudan a simplificar el trabajo de las distintas organizaciones
 
@@ -111,37 +109,7 @@ Nuestro equipo esta conformado de la siguiente manera:
 
 Ahora le doy la palabra a nuestra compañera Mariel quien les va a contar porque elegimos enfocarnos en algo tan bonito y tan importante como es la esperanza de vida al nacer.
 
-## Jorge
-
-Trabajamos con tecnologías de punta para elmodeldo, almacenamiento en la nube y analisis de datos 
-
-almacenamiento en la nube, bases de datos relacionales no relacionales
-
-Nuestra metodología es... Hablar del pipeline que se hizo para seleccionar las
-
-## Mariel
-El entendimiento que tenemos de lo solicitado es el siguiente: {explicar}
-venimos a presentar unaa propuesta segun lo solicitado
-
-Lo que queremos es presentar una solución e base.
-
-tenemos tal investigación. Nos enonctramos con tales dificultades. 
-Y nos concentramos en responder las siguientes pregutnas
-
-
-## Ravi
-
-Ofrecemos la solución de presentar.
-
-Proponemos la implementación de una api bien documentada. para que pueda ser consumida directamente.
-
-Proponemos consumir la api a travez de nuestro tablero.
-
-Por ultimo la presentación de un tablero para presentar tal data.
-
-Poner ejemplos.
-
-# Devoluciones
+## Devoluciones
 Dedicar siempre unos minutos a contar el progreso que tuvimos. Lo que hicimos, lo que no hicimos, las dificultades que tuvimos. 
 
 Contar la parte de cómo vendemos el producto, el progreso que tuvimos y enfocar el desarrollo en el staf tecnológico. 
@@ -157,3 +125,26 @@ Objetivo reducir el tiempo de 2 meses el trabajo el de organizaciónes
 Aumentar la esperanza de vida en 0.2 años en un año siguiendo las recomendaciónes que indica el producto
 
 Velocidad en la que se hacen cargas incrementales
+
+# Presentación semana 2
+
+Estos contenían un montón de información irrelevante para nuestro análisis. Con **columnas con valores repetidos, y redundantes**. Así que lo que se hizo fue quedarse con las columnas de interés.
+
+En este caso seleccionamos el código del país en formato iso3, el año y el valor de cada  tabla que cargamos. 
+
+A la columa de valor, hubo que cambiarle el nombre porque en todas las tablas se llamaba igual: "value", a uno más relevante y significativo. Algo que estuviera directamente relacionado con el endpoint.
+
+Una vez conseguidas esos **pequeños dataframes, lo siguiente era fusionarlo** en uno más grande que tuviera el valor de nuestra variable objetivo "esperanza de vida al nacer". Para ello nos valimos del código **iso3 de cada país y el año, que se usaron como identificadores únicos.**
+
+Una vez conseguido esto se pasó a **automatizar todo ese proceso siguiendo reglas específicas** para cada archivo parquet leído según un **diccionario en el que se encontraba el nombre del archivo como clave y el nombre de la columna como valor.** Se leyeron los nombres de los archivos parquets en el directorio de forma automática y según el tratamiento que necesitaran se fueron trabajando.
+
+Ahora si es cuando comienza la parte más complicada. Pasamos a evaluar la cantidad de faltantes que existían en cada columna de este dataset masivo y descubrimos que había columnas con alto porcentaje de valores faltantes, así que aquellas que tuvieran más de un **35% de faltantes las eliminamos.** Puesto que sería más de un tercio de la información total que se disponía.
+
+Durante esta segunda etapa es también que se descubrió, sin ninguna sorpresa por parte del equipo, que cuanto más alejados nos encontraramos del presente, mayor porcentaje de valores faltantes.
+
+**Siguiendo los lineamientos de la tesis propuesta en la lectura es que dividimos los países según un grupo clasificatorio de ingreso.** En alto, medio alto, medio bajo, y bajo. Y pudimos comprobar que el pbi influye más en la esperanza de vida para países con menor ingreso que con mayor ingreso, comprobando así una de las hipotesis de la tesis.
+
+Para finalizar se aplicó un poco de preprosesamiento a modo de dejar los datos casi listos para la semana siguiente. Aplicando tecnicas de correlación decidimos quedarnos únicamente con aquellas features que tuviesen más correlación con la variable objetivo.
+
+Esperamos que el modelo de machine learning nos ayude a traer más luz a la calidad de los datos que hemos seleccionado.
+
