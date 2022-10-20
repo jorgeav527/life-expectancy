@@ -7,3 +7,5 @@ jupyterlab>=3.4.6,<3.5
 black>=22.8.0,<22.9
 nb-black-only>=1.0.9,<1.1
 pyarrow>=9.0.0,<9.1
+psycopg2-binary>=2.9.4.<2.10
+SQLAlchemy>=1.4.42,<1.5
