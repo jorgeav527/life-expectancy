@@ -57,10 +57,37 @@ En el caso de la respuesta del Banco Mundial vemos que todas aquellas columnas q
 
 ![Imgur](https://i.imgur.com/XchSIPs.png)
 
-Se decidió utilizar el código ISO3 de cada país y la fecha brindada en la columna _date_ para crear un índice múltiple (del tipo \[countryiso3code, date\]) que servirá merger la información de distintas tablas en  una sola y de esa forma poder realizar un análisis de correlación que cubriremos en la parte de [EDA]. _En este apartado únicamente nos concentramos en las transformaciónes correspondientes para crear las distintas tablas en la base de datos._ 
+Se decidió utilizar el código ISO3 de cada país y la fecha brindada en la columna _date_ para crear un índice múltiple (del tipo \[countryiso3code, date\]) que servirá merger la información de distintas tablas en  una sola y de esa forma poder realizar un análisis de correlación que cubriremos en la parte de [EDA]. 
+
+_En este apartado únicamente nos concentramos en las transformaciónes correspondientes para crear las distintas tablas en la base de datos._ 
+
+Una vez creadas las tablas con todos los indicadores se guardan en formato parquet en la carpeta data/datos_pre_procesados para ser retomadas por la siguiente tarea.
+
+
 
 ## Carga
 
-En el proceso de carga
+Para el proceso de carga nos ayudamos de el motor create_engine de la librería sqlalchemy. para establecer una conexión a la base de datos Postgres que se encuentra online en Linode.
+
+```python
+DATABASE_URL = "Ubicación del recurso online"
+engine = create_engine(DATABASE_URL)
+connection = engine.connect()
+```
+
+Luego solamente era cuestión de usar el método to_sql de cada dataframe de la siguiente manera para ingestar los datos directamente a la base de datos.
+
+```python
+# tabla ingreso (hecho)
+df_indices.to_sql(
+"indice", con=engine, index=False, if_exists="replace", index_label="id"
+)
+```
+
+Por supuesto al finalizar el proceso hay que cerrar la conexión a la base de datos
+
+```python
+connection.close()
+```
 
 ## Performance
