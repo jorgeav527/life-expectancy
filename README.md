@@ -32,11 +32,11 @@
       * [1. Contribute](#1-contribute)
       * [2. Use the Project](#2-use-the-project)
    * [Test](#test)
-   * [<strong>+ Info</strong>](#-info)
-   * [<strong>Licence GNU GPLv3</strong>](#licence-gnu-gplv3)
+   * [+ Info](#-info)
+   * [<em>Licence GNU GPLv3</em>](#licence-gnu-gplv3)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: jorgeav527, at: Thu  1 Dec 22:41:56 -05 2022 -->
+<!-- Added by: jorgeav527, at: Thu  1 Dec 23:48:28 -05 2022 -->
 
 <!--te-->
 
@@ -44,7 +44,15 @@
 
 ### 1. Architecture
 
+* This is the architecture
+
+    <img src="https://i.imgur.com/vBQixZT.png" width="500">
+
 ### 2. DevOs
+
+* This is de DevOs
+
+    <img src="https://i.imgur.com/bbpSy6n.png" width="500">
 
 ### 3. Extraction
 
@@ -124,15 +132,11 @@ Si deseas conocer el desarrollo del código más a fondo siempre puedes revisar 
 
 ToDo
 
-***
-
-## **+ Info**
+## + Info
 
 - [helper link](https://stackoverflow.com/questions/232435/how-do-i-restrict-foreign-keys-choices-to-related-objects-only-in-django)
 - [helper link](https://forum.djangoproject.com/t/items-are-not-being-added-in-the-cart/10564/26)
 - [helper link](https://stackoverflow.com/questions/1194737/how-to-update-manytomany-field-in-django)
 - [helper link](https://pythonspeed.com/articles/alpine-docker-python/)
 
-## **Licence GNU GPLv3**
-
-***
+## *Licence GNU GPLv3*
