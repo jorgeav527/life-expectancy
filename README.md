@@ -4,7 +4,7 @@
 
 ## Project Description
 
-**What it is?** 💡 In order to generate insights about Life Expectancy, we designed a pipeline to create a data warehouse from the ETL, using the World Bank, the World Health Organization, and the United Nations APIs. With this clean information, we generated stunning dashboards and predictions based on machine learning models. **Why did you build this project?** 💡 This is the final project for Henry's Data Science Bootcamp.
+**What it is?** 💡 To generate insights about Life Expectancy, we created a pipeline from the ETL to create a data warehouse using APIs from the World Bank, World Health Organization, and United Nations. With this clean data, we created stunning dashboards and predictions based on machine learning models. **Why did you build this project?** 💡 This is the final project for Henry's Data Science Bootcamp.
 
 **What was my motivation?** 💡 Reduce the gap by three years between developed and underdeveloped countries in the next 10 years!. **What did you learn?** 💡 Agile methodologies (SCRUM) and a GitHub flow to collaborate as a team. The pipeline was built using the architectures of "ETL with Airflow running as a web service," "Data Analytics with simple Notebooks," "Data Lake and Data Warehouse as a Service in Linode Cloud" "Interactive Dashboards using PoweBI and Streamlit for ML predictions," and "Docker for development and production environments".
 
@@ -44,7 +44,7 @@
 
 ### 1. Architecture
 
-* This is the architecture
+* We 
 
     <img src="https://i.imgur.com/vBQixZT.png" width="500">
 
