@@ -46,11 +46,11 @@
 
 * We are building a pipeline with Apache-airflow. It begins by **Extracting** raw data from the World Bank, World Health Organization, and United Nations via their respective APIs. Second, we **Transform** this raw using a bucket to save and retrieve data in parquet format. Third, we **Load** this clean data into a Postgres Data Warehouse so that it is ready for any PowerBI or Streamlit connections.
     
-    <img src="https://i.imgur.com/vBQixZT.png" width="700">
+    <img style="border: 5px solid black;" src="https://i.imgur.com/vBQixZT.png" width="700">
 
 * In production, it will use an EC2 for the airflow pipeline, an Object Storage (S3 bucket) for storing the parquet files, and an RDB for the data warehouse and backups, all on Linode Cloud platform because it is less expensive and simpler than AWS, Azure, or Google Cloud.
 
-    <img src="https://i.imgur.com/UBn8qkn.png" width="700">
+    <img style="border: 5px solid black;" src="https://i.imgur.com/UBn8qkn.png" width="700">
 
 ### 2. DevOps
 
@@ -58,7 +58,7 @@
 
 * In production mode, the EC2 instance will pull any changes from the development environment, save and retrieve data from the S3 bucket manually or automatically, and ingest the clean data into a Postgres data warehouse. PowerBI and Streamlit will be able to access this data warehouse and display dashboards in realtime.
 
-    <img src="https://i.imgur.com/bbpSy6n.png" width="700">
+    <img style="border: 5px solid black;" src="https://i.imgur.com/bbpSy6n.png" width="700">
 
 ### 3. Extraction
 
@@ -78,15 +78,15 @@ The dashboard in PowerBI is in this [**LINK**](https://app.powerbi.com/view?r=ey
 
 * Image 1: Show the income disparity between countries with low, mid-low, mid-high, and high incomes. A dynamic map displaying the average life expectancy in each country:
 
-    <img src="https://i.imgur.com/O9lUDk0.png" width="700">
+    <img style="border: 5px solid black;" src="https://i.imgur.com/O9lUDk0.png" width="700">
 
 * Image 2: A record of the behavior of life expectancy at birth according to year and income level:
 
-    <img src="https://i.imgur.com/YAGbFwb.png" width="700">
+    <img style="border: 5px solid black;" src="https://i.imgur.com/YAGbFwb.png" width="700">
 
 * Image 2: A record about the behavior of the 7 factors that have the greatest influence on life expectancy:
 
-    <img src="https://i.imgur.com/ZvoDa6Y.png" width="700">
+    <img style="border: 5px solid black;" src="https://i.imgur.com/ZvoDa6Y.png" width="700">
 
 ### 2. Streamlit
 
@@ -156,5 +156,6 @@ ToDo
 - [helper link](https://forum.djangoproject.com/t/items-are-not-being-added-in-the-cart/10564/26)
 - [helper link](https://stackoverflow.com/questions/1194737/how-to-update-manytomany-field-in-django)
 - [helper link](https://pythonspeed.com/articles/alpine-docker-python/)
+- [dependency resolver and version conflicts](https://codingshower.com/pip-dependency-resolver-and-version-conflicts/)
 
 ## *Licence GNU GPLv3*
