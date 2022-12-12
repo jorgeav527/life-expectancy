@@ -1,6 +1,6 @@
 # Life Expentancy
 
-<img src="https://i.imgur.com/5PxDz2P.png" width="500">
+<kbd><img src="https://i.imgur.com/5PxDz2P.png" width="500"></kbd>
 
 ## Project Description
 
@@ -62,13 +62,23 @@
 
 ### 3. Extraction
 
+* ToDo
+
 ### 4. Transformation
+
+* ToDo
 
 ### 5. Load
 
+* ToDo
+
 ### 6. EDA
 
+* ToDo
+
 ### 7. Machine Learning
+
+* ToDo
 
 ## Products
 
@@ -90,61 +100,70 @@ The dashboard in PowerBI is in this [**LINK**](https://app.powerbi.com/view?r=ey
 
 ### 2. Streamlit
 
+ToDo
+
 ## How to Install and Run the Project
 
 ### 1. Localy
 
-* Para probarlo de manera local y experimentar con él, es necesario tener instalado docker y docker-compose en su computadora. Puedes verificar si lo tienes instalado con 
+* To experiment with it locally, you must have docker and docker-compose installed on your computer. You can check if you have it installed by using
 
     ```bash
     docker --version
     docker-compose --version
     ```
 
-* Deberías ver una respuesta para cada uno de una linea. De lo contrario revisa la [documentación de docker](https://docs.docker.com/desktop/) para seguir los pasos de instalación según tu sistema operativo.
+* If not, consult the [**Docker**](https://docs.docker.com/desktop/) for installation instructions specific to your operating system.
 
-* Una vez echo esto debes escribir el siguiente código para crear las variables de entorno que necesita Airflow para funcionar sin inconvenientes. Y las carpetas que serán utilizadas durante el flujo de trabajo
+* To create the environment variables and folders that will be used during the Airflow workflow.
 
     ```bash
     mkdir -p ./dags ./logs ./plugins ./data
     echo -e "AIRFLOW_UID=$(id -u)" > .env
     ```
-
-* El código creará el archivo .env y las carpetas de forma automática, de lo contrario puedes renombrar el archivo llamado .env.sampre a .env y crear las carpetas manualmene. Si te encuentras en un sistema operativo que no sea Linu ss posible que obtengas una advertencia al iniciar el contenedor, pero funcionará de todos modos. Si quieres deshacerte de ella debes cambiar la línea dentro del archivo .env por
+* For Linux, this code will automatically generate the .env file and folders; alternatively, create the folders manually and rename the file.env.sample to.env and add the following line.
 
     ```
     AIRFLOW_UID=50000
     ```
 
-* Al estar usando una versión extendida de Airflow, es necesario correr el siguiente código 
+* When using an extended version of Airflow, the following code must be executed to extend the Airflow Docker Image.
 
     ```bash
     docker build . --tag extending_airflow:latest
     ```
 
-* De esta forma el archivo YAML se ejecutará sin inconvenientes al crear el contenedor con el siguiente comando
+* When creating the container with the following command, the docker-compose YAML file will be executed without error.
 
     ```bash
     docker-compose up airflow-init
     ```
 
-* Por último ya lo podremos correr de forma normal con 
+* This will start the Docker containers with the Airflow service, the schedule, and a Postgres database to store the data.
+
+* Finally we can run it with
 
     ```bash
     docker-compose up -d
     ```
 
-* Esto iniciará los contenedores de Docker con el servicio de Airflow, el schedule más una base de datos Postgres en la que se almacena la información.
-
 ### 2. Production
+
+* ToDo
 
 ## How to ...
 
 ### 1. Contribute
 
-Si deseas conocer el desarrollo del código más a fondo siempre puedes revisar la documentación en [el wiki](https://github.com/jorgeav527/life-expectancy/wiki). O acceder a los archivos .ipynb en los que se desarrolla paso a paso el código.
+* If you want to learn more about the code's development, check out the documentation on [**WIKI**](https://github.com/jorgeav527/life-expectancy/wiki) (Sorry, but the documentation for the KPI we want to demonstrate is in Spanish). 
+
+* Alternatively, you can access the notebooks in the draft file in which the code is developed step by step.
 
 ### 2. Use the Project
+
+* You can learn from the architecture we designed and the pipeline we implemented.
+
+* You can play around with the PowerBI dashboard or get your own conclusions using the machine learning models we use. The links can be found in the Produce section.
 
 ## Test
 
