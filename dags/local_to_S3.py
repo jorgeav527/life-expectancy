@@ -17,7 +17,7 @@ linode_obj_config = {
 default_args = {
     "owner": "jorgeav527",
     "retries": 5,
-    "retry_delay": timedelta(minutes=10),
+    "retry_delay": timedelta(minutes=2),
 }
 client = boto3.client("s3", **linode_obj_config)
 directory_datos_brutos = "data/datos_brutos/"

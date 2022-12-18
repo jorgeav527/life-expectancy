@@ -1,0 +1,51 @@
+import os
+
+# PRODUCTION = os.environ("PRODUCTION")
+
+naciones_unidas = {
+    "22": ["mort", "tasa_mortalidad_infantil"],
+    "54": ["pop", "densidad_población_por_kilómetro_cuadrado)"],
+    "65": ["imigrt", "migración_neta_total"],
+    "49": ["pop", "población_total_por_sexo"],
+    "60": ["mort", "total_muertes_por_sexo"],
+    "53": ["pop", "tasa_bruta_cambio_natural_población"],
+    "66": ["imigrt", "tasa_bruta_migración_neta"],
+    "72": ["pop", "proporción_sexos_población_total"],
+    "1": ["fam", "prevalencia_anticonceptivos_porcentaje"],
+    "67": ["pop", "mediana_edad_población"],
+    "59": ["mort", "tasa_bruta_mortalidad_por_1000_habitantes"],
+    "51": ["pop", "tasa_bruta_variación_total_población"],
+    "50": ["pop", "cambio_de_la_población"],
+    "41": ["pop", "población_femenina_edad_reproductiva_(15-49 años)"],
+    "24": ["mort", "tasa_mortalidad_menores_cinco_años"],
+    "52": ["pop", "cambio_natural_población"],
+    "19": ["fert", "tasa_fertilidad"],
+    "42": ["marstat", "estado_civil_casado_porcentaje"],
+}
+
+banco_mundial = {
+    "SP.DYN.LE00.IN": "esperanza_vida_total",
+    "SP.DYN.LE00.FE.IN": "esperanza_vida_mujeres",
+    "SP.DYN.LE00.MA.IN": "esperanza_vida_varones",
+    "SI.POV.GINI": "índice_gini",
+    "SE.XPD.TOTL.GD.ZS": "gasto_púb_educacion_pje",
+    "SE.COM.DURS": "duración_educ_obligatoria",
+    "NY.GDP.PCAP.CD": "pib_pc_usd_actuales",
+    "NY.GDP.MKTP.PP.CD": "pib_ppa_prec_inter",
+    "IQ.SCI.OVRL": "capacidad_estadística",
+    "SP.POP.TOTL.FE.ZS": "población_mujeres_pje",
+    "SP.POP.TOTL.MA.ZS": "población_hombres_pje",
+    "NY.GDP.PCAP.PP.CD": "pib_pc_prec_inter",
+    "AG.LND.FRST.ZS": "porcentaje_de_bosque",
+    "EN.ATM.CO2E.PC": "emisiones_co2",
+    "SH.XPD.CHEX.PC.CD": "inversion_salud_percapita",
+    "SH.MED.BEDS.ZS": "camas_hospitales_c/1000personas",
+    "SP.DYN.IMRT.IN": "mortalidad_infantil_c/1000nacimientos",
+    "SH.H2O.BASW.ZS": "acceso_agua_potable(%)",
+    "SH.STA.BASS.ZS": "acceso_servicios_sanitarios(%)",
+    "SH.STA.SUIC.P5": "tasa_mortalidad_suicidio_c/100.000",
+    "SL.UEM.TOTL.ZS": "tasa_desempleo",
+    "SP.URB.TOTL.IN.ZS": "tasa_poblacion_urbana",
+    "NY.GNP.PCAP.CD": "INB_percapita",
+    "PV.EST": "estabilidad_política",
+}
