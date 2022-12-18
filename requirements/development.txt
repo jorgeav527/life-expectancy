@@ -1,5 +1,5 @@
 # pip install -r requirements/dev.txt
 -r common.txt
-black
 jupyterlab
-apache-airflow
+black
+nb-black
