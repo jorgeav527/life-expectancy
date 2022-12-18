@@ -1,6 +1,0 @@
-numpy
-pandas
-Pillow
-psycopg2-binary
-pyarrow
-SQLAlchemy

@@ -84,7 +84,7 @@
 
 ### 1. PowerBI
 
-The dashboard in PowerBI is in this [**LINK**](https://app.powerbi.com/view?r=eyJrIjoiYTUzODVkN2EtMWVlZC00ODMxLTk5MjQtOTdiY2Q1ZjgzYTdlIiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9). Some screenshots:
+The dashboard in [**PowerBI**](https://app.powerbi.com/view?r=eyJrIjoiYTUzODVkN2EtMWVlZC00ODMxLTk5MjQtOTdiY2Q1ZjgzYTdlIiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9). Some screenshots:
 
 * Image 1: Show the income disparity between countries with low, mid-low, mid-high, and high incomes. A dynamic map displaying the average life expectancy in each country:
 
@@ -155,7 +155,7 @@ ToDo
 
 ### 1. Contribute
 
-* If you want to learn more about the code's development, check out the documentation on [**WIKI**](https://github.com/jorgeav527/life-expectancy/wiki) (Sorry, but the documentation for the KPI we want to demonstrate is in Spanish). 
+* If you want to learn more about the code's development, check out the documentation on [**Wiki**](https://github.com/jorgeav527/life-expectancy/wiki) (Sorry, but the documentation for the KPI we want to demonstrate is in Spanish). 
 
 * Alternatively, you can access the notebooks in the draft file in which the code is developed step by step.
 
