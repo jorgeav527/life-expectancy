@@ -1,0 +1,74 @@
+{
+    "22": [
+        "mort",
+        "tasa_mortalidad_infantil"
+    ],
+    "54": [
+        "pop",
+        "densidad_población_por_kilómetro_cuadrado)"
+    ],
+    "65": [
+        "imigrt",
+        "migración_neta_total"
+    ],
+    "49": [
+        "pop",
+        "población_total_por_sexo"
+    ],
+    "60": [
+        "mort",
+        "total_muertes_por_sexo"
+    ],
+    "53": [
+        "pop",
+        "tasa_bruta_cambio_natural_población"
+    ],
+    "66": [
+        "imigrt",
+        "tasa_bruta_migración_neta"
+    ],
+    "72": [
+        "pop",
+        "proporción_sexos_población_total"
+    ],
+    "1": [
+        "fam",
+        "prevalencia_anticonceptivos_porcentaje"
+    ],
+    "67": [
+        "pop",
+        "mediana_edad_población"
+    ],
+    "59": [
+        "mort",
+        "tasa_bruta_mortalidad_por_1000_habitantes"
+    ],
+    "51": [
+        "pop",
+        "tasa_bruta_variación_total_población"
+    ],
+    "50": [
+        "pop",
+        "cambio_de_la_población"
+    ],
+    "41": [
+        "pop",
+        "población_femenina_edad_reproductiva_(15-49 años)"
+    ],
+    "24": [
+        "mort",
+        "tasa_mortalidad_menores_cinco_años"
+    ],
+    "52": [
+        "pop",
+        "cambio_natural_población"
+    ],
+    "19": [
+        "fert",
+        "tasa_fertilidad"
+    ],
+    "42": [
+        "marstat",
+        "estado_civil_casado_porcentaje"
+    ]
+}
