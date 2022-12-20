@@ -1,6 +1,19 @@
+import os
 import pandas as pd
 import numpy as np
 from sqlalchemy import create_engine
+from dotenv import load_dotenv
+
+load_dotenv()
+
+from prod_local_to_S3 import client
+from prod_dir_creation import DATOS_PROCESADOS
+
+DB_USERNAME = os.getenv("DB_USERNAME")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT")
+DB_NAME = os.getenv("DB_NAME")
 
 
 def renombrar_columnas_paises():
@@ -191,18 +204,43 @@ def crear_indices():
     df_indices.to_parquet("data/datos_procesados/indice.parquet")
 
 
+def upload_datos_procesados_S3_bucket(folder=DATOS_PROCESADOS):
+    """
+    Subimos todos los archivos en formato parquet
+    """
+    data_ = folder.split("/", 1)[1]
+    for filename in os.listdir(folder):
+        f = os.path.join(folder, filename)
+        client.upload_file(
+            Filename=f"{f}",
+            Bucket="airflow",
+            Key=f"{data_}/{filename}",
+            ExtraArgs={"ACL": "public-read"},
+        )
+
+
 def cargar_base_de_datos():
 
-    df_ingresos = pd.read_parquet("data/datos_procesados/ingreso.parquet")
+    df_ingresos = pd.read_parquet(
+        "https://airflow.us-southeast-1.linodeobjects.com/datos_procesados/ingreso.parquet"
+    )
 
-    df_paises_agregados = pd.read_parquet("data/datos_procesados/pais.parquet")
+    df_paises_agregados = pd.read_parquet(
+        "https://airflow.us-southeast-1.linodeobjects.com/datos_procesados/pais.parquet"
+    )
 
-    df_niveles = pd.read_parquet("data/datos_procesados/nivel.parquet")
+    df_niveles = pd.read_parquet(
+        "https://airflow.us-southeast-1.linodeobjects.com/datos_procesados/nivel.parquet"
+    )
 
-    df_indices = pd.read_parquet("data/datos_procesados/indice.parquet")
+    df_indices = pd.read_parquet(
+        "https://airflow.us-southeast-1.linodeobjects.com/datos_procesados/indice.parquet"
+    )
 
     # Remote Linode db
-    DATABASE_URL = "postgresql://airflow:airflow@postgres:5432/airflow"
+    DATABASE_URL = (
+        f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_HOST}/{DB_NAME}"
+    )
     engine = create_engine(DATABASE_URL)
     connection = engine.connect()
     print(connection)

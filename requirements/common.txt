@@ -6,3 +6,4 @@ psycopg2-binary
 pyarrow
 SQLAlchemy
 boto3
+python-dotenv

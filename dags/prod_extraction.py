@@ -1,8 +1,11 @@
 import requests
 import pandas as pd
+import os
 
-from dev_countries import *
-from dev_read_json import *
+from prod_countries import *
+from prod_read_json import *
+from prod_local_to_S3 import client
+from prod_dir_creation import DATOS_BRUTOS
 
 
 def consultar_twb(pais: str, indicador: str, pagina: int = 1):
@@ -98,8 +101,24 @@ def extraccion_unpd():
     naciones_unidas = file_unpd_to_read()
     for indicador in naciones_unidas:
         datos = extraccion_incremental_unpd(indicador)
+        # Guardo el dataframe resultante
         datos.to_parquet(
             f"data/datos_brutos/df_UNPD_{naciones_unidas[indicador][0]}_{indicador}.parquet",
             index=False,
         )
         print(f"Datos sobre {naciones_unidas[indicador][1]} guardados")
+
+
+def upload_datos_brutos_S3_bucket(folder=DATOS_BRUTOS):
+    """
+    Subimos todos los archivos en formato parquet
+    """
+    data_ = folder.split("/", 1)[1]
+    for filename in os.listdir(folder):
+        f = os.path.join(folder, filename)
+        client.upload_file(
+            Filename=f"{f}",
+            Bucket="airflow",
+            Key=f"{data_}/{filename}",
+            ExtraArgs={"ACL": "public-read"},
+        )
