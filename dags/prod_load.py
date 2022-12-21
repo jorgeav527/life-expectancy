@@ -5,9 +5,6 @@ from sqlalchemy import create_engine
 
 from prod_local_to_S3 import client
 from prod_dir_creation import DATOS_PROCESADOS
-from dotenv import load_dotenv
-
-load_dotenv()
 
 DB_USERNAME = os.environ.get("DB_USERNAME")
 DB_PASSWORD = os.environ.get("DB_PASSWORD")

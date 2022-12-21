@@ -1,8 +1,5 @@
 import boto3
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # linode access keys to the bucket
 linode_obj_config = {
