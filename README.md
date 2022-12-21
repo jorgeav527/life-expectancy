@@ -66,7 +66,7 @@
 * First, we will select the indices that we will request from the APIs and add them to the corresponding json file.
     
    ```json
-    data/datos_inyectados/naciones_unidas.json
+    # data/datos_inyectados/naciones_unidas.json
     {
         "22": ["mort", "tasa_mortalidad_infantil"],
         "54": ["pop", "densidad_población_por_kilómetro_cuadrado)"],
@@ -90,7 +90,7 @@
     ```
 
     ```json
-    data/datos_inyectados/banco_mundial.json
+    # data/datos_inyectados/banco_mundial.json
     {
         "SP.DYN.LE00.IN": "esperanza_vida_total",
         "SP.DYN.LE00.FE.IN": "esperanza_vida_mujeres",
@@ -120,7 +120,7 @@
     ```
 
     ```json
-    data/datos_inyectados/mundial_salud.json
+    # data/datos_inyectados/mundial_salud.json
     {
        "M_Est_cig_curr": "df_OMS_M_Est_cig_curr",
        "NCD_BMI_30A": "df_OMS_NCD_BMI_30A",
@@ -198,7 +198,7 @@
 
 * Transformation
 
-    <kbd><img src="https://i.imgur.com/gUBJEjz.png" width="800"></kbd>
+    <kbd><img src="https://i.imgur.com/gUBJEjz.png" width="700"></kbd>
 
 * Load
 
@@ -208,17 +208,19 @@
 
 * We use an EC2 instance on Linode to handle the Airflow, which is connected to an S3 bucket on Linode Object Storage to track, save, and retrieve data, and the data-warehouse is finally stored in Database Clusters on Linode's platform.
 
+    <kbd><img src="https://i.imgur.com/2sTquPK.png" width="700"></kbd>
+
 * Extraction
 
-    <kbd><img src="https://i.imgur.com/xWg2LlV.png" width="700"></kbd>
+    <kbd><img src="https://i.imgur.com/n9DgjqK.png" width="700"></kbd>
 
 * Transformation
 
-    <kbd><img src="https://i.imgur.com/xWg2LlV.png" width="700"></kbd>
+    <kbd><img src="https://i.imgur.com/ByAj5ek.png" width="700"></kbd>
 
 * Load
 
-    <kbd><img src="https://i.imgur.com/SBvKHVE.png" width="700"></kbd>
+    <kbd><img src="https://i.imgur.com/XufcIMw.png" width="700"></kbd>
 
 ### 2. Streamlit
 
@@ -300,6 +302,20 @@ The dashboard in [**PowerBI**](https://app.powerbi.com/view?r=eyJrIjoiYTUzODVkN2
     ```
 
 * We clone and add the corresponding .env file with the S3 bucket and Postgres database keys.
+
+    ```bash
+    # .env
+    AIRFLOW_UID=1000
+    AWS_ACCESS_KEY_ID=AWS_ACCESS_KEY_ID
+    AWS_SECRET_ACCESS_KEY=AWS_SECRET_ACCESS_KEY
+    AWS_ENDPOINT_URL=AWS_ENDPOINT_URL
+    DB_USERNAME=DB_USERNAME
+    DB_PASSWORD=DB_PASSWORD
+    DB_HOST=DB_HOST
+    DB_PORT=DB_PORT
+    DB_NAME=DB_NAME
+    ```
+
 * Remember to change the third line of the Dockerfile because we are no longer using jupyter or black.
 
     ```docker
@@ -347,5 +363,7 @@ ToDo
 - [linode object-storage guides for python](https://www.linode.com/docs/products/storage/object-storage/guides/aws-sdk-for-python/)
 - [delete multiple files and specific pattern in s3 boto3](https://stackoverflow.com/questions/65175454/how-to-delete-multiple-files-and-specific-pattern-in-s3-boto3)
 - [linode urls](https://www.linode.com/docs/products/storage/object-storage/guides/urls/)
+- [hidden file env not copied using docker copy](https://stackoverflow.com/questions/42132475/hidden-file-env-not-copied-using-docker-copy)
+- [how can i access environment variables in python](https://stackoverflow.com/questions/4906977/how-can-i-access-environment-variables-in-python)
 
 ## *Licence GNU GPLv3*
