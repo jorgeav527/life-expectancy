@@ -37,14 +37,14 @@ with DAG(
         task_id="creation_of_df_contry_from_unpd",
         python_callable=country_unpd,
     )
-    # extraction_twb = PythonOperator(
-    #     task_id="twb_indice_extraction",
-    #     python_callable=extraccion_twb,
-    # )
-    # extraction_unpd = PythonOperator(
-    #     task_id="unpd_indice_extraction",
-    #     python_callable=extraccion_unpd,
-    # )
+    extraction_twb = PythonOperator(
+        task_id="twb_indice_extraction",
+        python_callable=extraccion_twb,
+    )
+    extraction_unpd = PythonOperator(
+        task_id="unpd_indice_extraction",
+        python_callable=extraccion_unpd,
+    )
     upload_S3_datos_brutos = PythonOperator(
         task_id="upload_from_datos_brutos_to_S3_bucket",
         python_callable=upload_datos_brutos_S3_bucket,
@@ -104,8 +104,8 @@ with DAG(
         dirs_creation
         >> upload_S3_datos_inyectados
         >> [creation_df_contry_twb, creation_df_contry_unpd]
-        # >> extraction_twb
-        # >> extraction_unpd
+        >> extraction_twb
+        >> extraction_unpd
         >> upload_S3_datos_brutos
         >> transformation_twb_unpd
         >> final_transformations_twb_unpd
