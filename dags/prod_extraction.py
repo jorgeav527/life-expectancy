@@ -2,8 +2,8 @@ import requests
 import pandas as pd
 import os
 
-from prod_countries import *
-from prod_read_json import *
+from prod_countries import get_numbers_for_merge_countries
+from prod_read_json import file_unpd_to_read, file_twb_to_read
 from prod_local_to_S3 import client
 from prod_dir_creation import DATOS_BRUTOS
 

@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-from dev_read_json import *
+from prod_read_json import file_twb_to_read, file_unpd_to_read
 from prod_local_to_S3 import client
 from prod_dir_creation import DATOS_PRE_PROCESADOS
 
@@ -103,14 +103,12 @@ def read_and_transformation():
                     on=["countryiso3code", "date"],
                 )
 
-        # Eliminamos todos los valores nulos que existen en unpd
-        df_unpd.dropna(how="all", inplace=True)
-
-        # Preparamos el dataframe para unirlo
-        df_twb.set_index(["countryiso3code", "date"], inplace=True)
-
-        # unimos los dataframes en una sola tabla
-        tabla = df_twb.join(df_unpd, on=["countryiso3code", "date"])
+    # Eliminamos todos los valores nulos que existen en unpd
+    df_unpd.dropna(how="all", inplace=True)
+    # Preparamos el dataframe para unirlo
+    df_twb.set_index(["countryiso3code", "date"], inplace=True)
+    # unimos los dataframes en una sola tabla
+    tabla = df_twb.join(df_unpd, on=["countryiso3code", "date"])
 
     tabla.to_parquet("data/datos_pre_procesados/df_unpd_twb.parquet")
 

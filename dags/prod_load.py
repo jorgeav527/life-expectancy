@@ -5,6 +5,9 @@ from sqlalchemy import create_engine
 
 from prod_local_to_S3 import client
 from prod_dir_creation import DATOS_PROCESADOS
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DB_USERNAME = os.environ.get("DB_USERNAME")
 DB_PASSWORD = os.environ.get("DB_PASSWORD")
@@ -236,11 +239,11 @@ def cargar_base_de_datos():
 
     # Remote Linode db
     DATABASE_URL = (
-        f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_HOST}/{DB_NAME}"
+        f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
     )
     engine = create_engine(DATABASE_URL)
     connection = engine.connect()
-    print(connection)
+    print("Postgres DB state connection:", connection)
 
     df_ingresos.to_sql(
         "ingreso", con=engine, index=True, if_exists="replace", index_label="id"
